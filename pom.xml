@@ -8,9 +8,16 @@
     <artifactId>learning-vertx</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
+
     <modules>
         <module>vertx-http-server</module>
     </modules>
+
+    <properties>
+        <vertx.version>3.4.1</vertx.version>
+        <mysql.conn.version>6.0.5</mysql.conn.version>
+        <log4j.version>2.8</log4j.version>
+    </properties>
 
 
 </project>
